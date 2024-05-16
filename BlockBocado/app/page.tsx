@@ -7,6 +7,7 @@ import { NavigationMenuLink, NavigationMenuItem, NavigationMenuList, NavigationM
 import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu";
 import Image from "next/image";
 import MarketPlaceSection from "@/components/marketplace";
+import TopSellersComponent from "@/components/top-vendedores";
 
 export default function Component() {
   return (
@@ -135,6 +136,9 @@ export default function Component() {
           </p>
         </div> */}
         <MarketPlaceSection />
+
+        <TopSellersComponent />
+
       </main>
 
       <footer className="sticky bottom-0 flex h-16 w-full items-center justify-center bg-white shadow dark:bg-gray-800">
