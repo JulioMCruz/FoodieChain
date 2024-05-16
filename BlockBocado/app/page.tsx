@@ -8,6 +8,7 @@ import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuSeparator, DropdownM
 import Image from "next/image";
 import MarketPlaceSection from "@/components/marketplace";
 import TopSellersComponent from "@/components/top-vendedores";
+import TopBuyersComponent from "@/components/top-buyers";
 
 export default function Component() {
   return (
@@ -138,6 +139,8 @@ export default function Component() {
         <MarketPlaceSection />
 
         <TopSellersComponent />
+
+        <TopBuyersComponent />
 
       </main>
 
