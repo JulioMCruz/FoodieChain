@@ -50,6 +50,10 @@ export default function HeaderComponent() {
             <HomeIcon className="h-5 w-5" />
             Mercado
           </Link>
+
+
+      {ready && authenticated ? (
+        <>
           <Link
             className="flex w-full items-center gap-2 px-4 py-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700"
             href="/add-product"
@@ -64,6 +68,10 @@ export default function HeaderComponent() {
             <SettingsIcon className="h-5 w-5" />
             Settings
           </Link>
+          </>
+      ): null}
+
+
         </nav>
       </SheetContent>
     </Sheet>
@@ -82,6 +90,9 @@ export default function HeaderComponent() {
             Mercado
           </NavigationMenuLink>
         </NavigationMenuItem>
+
+      {ready && authenticated ? (
+        <>
         <NavigationMenuItem>
           <NavigationMenuLink
             className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
@@ -98,6 +109,9 @@ export default function HeaderComponent() {
             Settings
           </NavigationMenuLink>
         </NavigationMenuItem>
+        </>
+      ): null}
+
       </NavigationMenuList>
     </NavigationMenu>
 
