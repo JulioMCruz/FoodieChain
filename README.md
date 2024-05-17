@@ -46,14 +46,25 @@ Se adicionará la funcionalidad de compartir en redes sociales como Farcaster, X
 
 # Despliege de Smart Contracts
 
+## BlockBocado.sol
+
+### Polygom Amoy:
+Direccion del Contracto: 0xf1D63b42fb8c4887d6deB34c5fba81B18Bd2e3Ea
+Trasaccion Hash: 0x7066d2735c8b874790408df494dccb8d76edc85369165e3ede74cb83c7e3874d
+
+### Scroll Sepolia:
+Direccion del Contracto: 0x2f302e1604e3657035c1eada450582fa4417f598
+Trasaccion Hash: 0xfb654fe6d12a87bd31bf50cb6a34e1664e762b8a217be884b690a1d86216709f
+
+
 ## ENSSubdomainManager.sol
 
 ### Polygom Amoy:
 Direccion del Contracto: 0xB2d8a2ce4A3a5B63CE60b0AE7593dD9A30eeFe77
-Trasaccion: 0xc5dbd58b83ba03ee3cc1c3f26fff8b4f195dd23b00d2eca9688a3342da4ba2a1
+Trasaccion Hash: 0xc5dbd58b83ba03ee3cc1c3f26fff8b4f195dd23b00d2eca9688a3342da4ba2a1
 
 ### Scroll Sepolia:
 Direccion del Contracto: 0xB2d8a2ce4A3a5B63CE60b0AE7593dD9A30eeFe77
-Trasaccion: 0x335c174fef6dd564dd22e625f06caae5cb702e9aa23f7fe3a8c73f4ad877ec0c
+Trasaccion Hash: 0x335c174fef6dd564dd22e625f06caae5cb702e9aa23f7fe3a8c73f4ad877ec0c
 
 
