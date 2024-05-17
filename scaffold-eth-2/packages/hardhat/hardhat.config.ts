@@ -118,6 +118,14 @@ const config: HardhatUserConfig = {
       url: "https://sepolia.publicgoods.network",
       accounts: [deployerPrivateKey],
     },
+    polygonAmoy: {
+      url: "https://polygon-amoy-bor-rpc.publicnode.com",
+      accounts: [deployerPrivateKey],
+    },
+    polygonCardona: {
+      url: "https://rpc.cardona.zkevm-rpc.com",
+      accounts: [deployerPrivateKey],
+    },
   },
   // configuration for harhdat-verify plugin
   etherscan: {
