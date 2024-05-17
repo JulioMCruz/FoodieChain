@@ -43,3 +43,17 @@ Aprendimos a entender más las funcionalidades y utilidades de los NFT's en que 
 La aplicación se le adicionará la funcionalidad de multichain usando tecnologías como Chainlink o Hyperlane asi los usuarios pueden usar el token que deseen en la chain que ellos prefieran.
 
 Se adicionará la funcionalidad de compartir en redes sociales como Farcaster, X e instagram para que los usuarios puedas compartir sus avanzes y ayudar a la educación de su comunidad en el ahorro del uso de sus alimentos.
+
+# Despliege de Smart Contracts
+
+## ENSSubdomainManager.sol
+
+### Polygom Amoy:
+Direccion del Contracto: 0xB2d8a2ce4A3a5B63CE60b0AE7593dD9A30eeFe77
+Trasaccion: 0xc5dbd58b83ba03ee3cc1c3f26fff8b4f195dd23b00d2eca9688a3342da4ba2a1
+
+### Scroll Sepolia:
+Direccion del Contracto: 0xB2d8a2ce4A3a5B63CE60b0AE7593dD9A30eeFe77
+Trasaccion: 0x335c174fef6dd564dd22e625f06caae5cb702e9aa23f7fe3a8c73f4ad877ec0c
+
+
