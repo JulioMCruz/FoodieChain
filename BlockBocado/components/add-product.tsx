@@ -76,7 +76,7 @@ export default function AddProductComponent() {
   )
 }
 
-function CameraIcon(props) {
+function CameraIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -97,7 +97,7 @@ function CameraIcon(props) {
 }
 
 
-function MapIcon(props) {
+function MapIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
