@@ -7,7 +7,31 @@ import { NavigationMenuLink, NavigationMenuItem, NavigationMenuList, NavigationM
 import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu";
 import Image from "next/image";
 
+import {usePrivy} from '@privy-io/react-auth';
+
+
 export default function HeaderComponent() {
+
+  const {
+    login,
+    ready,
+    authenticated,
+    user,
+    logout,
+    linkEmail,
+    linkWallet,
+    unlinkEmail,
+    linkPhone,
+    unlinkPhone,
+    unlinkWallet,
+    linkGoogle,
+    unlinkGoogle,
+    linkTwitter,
+    unlinkTwitter,
+    linkDiscord,
+    unlinkDiscord,
+  } = usePrivy();  
+
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between bg-[#fbff7f] dark:bg-gray-800 m-8 px-8 py-4 rounded-3xl shadow-xl border-2 border-black">
     <Sheet>
@@ -76,6 +100,26 @@ export default function HeaderComponent() {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
+
+    <div>
+    {ready && !authenticated ? (
+      <button
+        className="bg-[#6aa405] hover:bg-[#6aa405] py-2 px-4 text-white rounded-lg"
+        onClick={login}
+      >
+        Log in
+      </button>
+      ): null}
+
+    {ready && authenticated ? (
+      <button
+        onClick={logout}
+        className="bg-[#b3eb52] hover:bg-[#b3eb52] py-2 px-4 text-grey rounded-lg"
+      >
+        Logout
+      </button>
+      ): null}
+      </div>
 
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
