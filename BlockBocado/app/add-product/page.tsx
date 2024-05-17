@@ -9,6 +9,7 @@ import Image from "next/image";
 import MarketPlaceSection from "@/components/marketplace";
 import TopSellersComponent from "@/components/top-vendedores";
 import TopBuyersComponent from "@/components/top-buyers";
+import AddProductComponent from "@/components/add-product";
 
 export default function Component() {
   return (
@@ -124,23 +125,8 @@ export default function Component() {
       </header>
 
       <main className="flex-1 px-4 py-8">
-        {/* <div className="prose dark:prose-invert">
-          <h2>Welcome to BlockBocado</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel faucibus bibendum, nulla nunc
-            tincidunt enim, a bibendum libero ante id erat. Nunc ac nisi vel nisl faucibus tristique. Sed auctor, magna
-            vel faucibus bibendum, nulla nunc tincidunt enim, a bibendum libero ante id erat.
-          </p>
-          <p>
-            Nunc ac nisi vel nisl faucibus tristique. Sed auctor, magna vel faucibus bibendum, nulla nunc tincidunt
-            enim, a bibendum libero ante id erat. Nunc ac nisi vel nisl faucibus tristique.
-          </p>
-        </div> */}
-        <MarketPlaceSection />
 
-        <TopSellersComponent />
-
-        <TopBuyersComponent />
+        <AddProductComponent />  
 
       </main>
 
