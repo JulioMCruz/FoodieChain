@@ -117,3 +117,4 @@ function MapIcon(props) {
     </svg>
   )
 }
+

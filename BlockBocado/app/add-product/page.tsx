@@ -10,120 +10,14 @@ import MarketPlaceSection from "@/components/marketplace";
 import TopSellersComponent from "@/components/top-vendedores";
 import TopBuyersComponent from "@/components/top-buyers";
 import AddProductComponent from "@/components/add-product";
+import HeaderComponent from "@/components/header";
 
 export default function Component() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="sticky top-0 z-50 flex h-16 w-full items-center justify-between bg-white px-4 shadow-sm dark:bg-gray-800">
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button className="lg:hidden" size="icon" variant="outline">
-              <MenuIcon className="h-6 w-6" />
-              <span className="sr-only">Toggle navigation menu</span>
-            </Button>
-          </SheetTrigger>
-          <SheetContent className="w-64" side="left">
-            <nav className="grid gap-2 py-4">
-              <Link
-                className="flex w-full items-center gap-2 px-4 py-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700"
-                href="/"
-              >
-                <HomeIcon className="h-5 w-5" />
-                Mercado
-              </Link>
-              <Link
-                className="flex w-full items-center gap-2 px-4 py-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700"
-                href="/add-product"
-              >
-                <FolderIcon className="h-5 w-5" />
-                Publicar Producto
-              </Link>
-              <Link
-                className="flex w-full items-center gap-2 px-4 py-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700"
-                href="#"
-              >
-                <SettingsIcon className="h-5 w-5" />
-                Settings
-              </Link>
-            </nav>
-          </SheetContent>
-        </Sheet>
-        <Link className="flex items-center gap-2" href="#">
-          <Image src={"/logo.png"} alt="BlockBocado" height={60} width={60} />
-          <span className="font-semibold">BlockBocado</span>
-        </Link>
 
-        <NavigationMenu className="hidden lg:flex">
-          <NavigationMenuList>
-            <NavigationMenuItem>
-              <NavigationMenuLink
-                className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-                href="/"
-              >
-                Mercado
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <NavigationMenuLink
-                className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-                href="/add-product"
-              >
-                Publicar Producto
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <NavigationMenuLink
-                className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-                href="#"
-              >
-                Settings
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
-
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button size="icon" variant="outline">
-              <ShoppingCartIcon className="h-6 w-6" />
-              <span className="sr-only">Toggle shopping cart</span>
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-64">
-            <DropdownMenuItem>
-              <div className="flex items-center gap-2">
-                <img
-                  alt="Product Image"
-                  className="rounded-md"
-                  height={50}
-                  src="/placeholder.svg"
-                  style={{
-                    aspectRatio: "50/50",
-                    objectFit: "cover",
-                  }}
-                  width={50}
-                />
-                <div>
-                  <h4 className="font-semibold">Product Name</h4>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">$99.99</p>
-                </div>
-              </div>
-            </DropdownMenuItem>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem>
-              <div className="flex justify-between">
-                <span className="font-semibold">Total:</span>
-                <span className="font-semibold">$99.99</span>
-              </div>
-            </DropdownMenuItem>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem>
-              <Button className="w-full">Checkout</Button>
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      </header>
-
+      <HeaderComponent />
+      
       <main className="flex-1 px-4 py-8">
 
         <AddProductComponent />  
