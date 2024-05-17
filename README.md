@@ -52,6 +52,11 @@ Se adicionará la funcionalidad de compartir en redes sociales como Farcaster, X
 Direccion del Contracto: 0x270B8770F59c767ff55595e893c7E16A88347FE9<br>
 Trasaccion Hash: 0xf2fa25c7d65ba38721a3f07b41f2e54d2522fdb6dfa4437e7c7c832f22eabdb9
 
+
+### Polygon zkEVM Cardona Testnet: [Contract](https://cardona-zkevm.polygonscan.com/address/0xD66D2D5F1114d6F6ee30cEbE2562806aFC23F3E6)
+Direccion del Contracto: 0xD66D2D5F1114d6F6ee30cEbE2562806aFC23F3E6<br>
+Trasaccion Hash: 0x8f07c2622c57b820d2a2c7e1d78fc962bc12a1fbb98b6ecaf0a252d37cd97f43
+
 ### Scroll Sepolia: [Contract](https://sepolia.scrollscan.com/address/0x270B8770F59c767ff55595e893c7E16A88347FE9)
 Direccion del Contracto: 0x270B8770F59c767ff55595e893c7E16A88347FE9<br>
 Trasaccion Hash: 0xa2df7272dcd93041a3322e1c9b3bf157fe2a23bb341fb3a1637127550f10e5e6
