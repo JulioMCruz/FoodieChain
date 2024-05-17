@@ -8,15 +8,14 @@ import { Textarea } from "@/components/ui/textarea"
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 
-
-export default function AddProductComponent() {
+export default function ProductDetailComponent() {
   return (
     <div className="grid md:grid-cols-2 gap-6 items-start">
       <div className="grid gap-4">
         <Card>
           <CardHeader>
-            <CardTitle>Upload Image</CardTitle>
-            <CardDescription>Capture an image from your camera and add details about the item.</CardDescription>
+            <CardTitle>Imagen</CardTitle>
+            {/* <CardDescription>Capture an image from your camera and add details about the item.</CardDescription> */}
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="grid gap-2">
@@ -41,33 +40,33 @@ export default function AddProductComponent() {
               <Input id="item" placeholder="Enter item name" />
             </div>
             <div className="grid gap-2">
-              <Label htmlFor="description">Description</Label>
+              <Label htmlFor="description">Descripcion</Label>
               <Textarea id="description" placeholder="Enter item description" />
             </div>
             <div className="grid gap-2">
-              <Label htmlFor="price">Price</Label>
+              <Label htmlFor="price">Precio</Label>
               <Input id="price" placeholder="Enter item price" type="number" />
             </div>
-            <div className="grid gap-2">
-              <Label htmlFor="location">Location</Label>
+            {/* <div className="grid gap-2">
+              <Label htmlFor="location">Localizacion</Label>
               <Input id="location" placeholder="Enter location" />
-            </div>
+            </div> */}
             <div className="grid gap-2">
-              <Label htmlFor="date">Date</Label>
+              <Label htmlFor="date">Fecha</Label>
               <Input id="date" type="date" />
             </div>
           </CardContent>
           <CardFooter>
             <Link href="/" className={buttonVariants({ variant: "outline" })}>Cancelar</Link>
-            <Button className="mx-4">Upload</Button>
+            <Button className="mx-4">Comprar</Button>
           </CardFooter>
         </Card>
       </div>
       <div className="grid gap-4">
         <Card>
           <CardHeader>
-            <CardTitle>Location Map</CardTitle>
-            <CardDescription>View the location where the image was captured.</CardDescription>
+            <CardTitle>Mapa</CardTitle>
+            <CardDescription>Localizacion donde la imagen fue capturada.</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="w-full aspect-[4/3] bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center">

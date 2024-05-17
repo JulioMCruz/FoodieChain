@@ -91,7 +91,7 @@ export default function HeaderComponent() {
               alt="Product Image"
               className="rounded-md"
               height={50}
-              src="/placeholder.svg"
+              src="/placeholder.png"
               style={{
                 aspectRatio: "50/50",
                 objectFit: "cover",
