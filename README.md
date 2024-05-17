@@ -46,7 +46,7 @@ Se adicionará la funcionalidad de compartir en redes sociales como Farcaster, X
 
 # Despliege de Smart Contracts
 
-## BlockBocado.sol
+##  [BlockBocado.sol](https://github.com/margajm/FoodieChain/blob/f92c3b12041496f9bc7bd4672bc67a3821ff4104/scaffold-eth-2/packages/hardhat/contracts/BlockBocado.sol#L6-L7)
 
 ### Polygom Amoy:
 Direccion del Contracto: 0xf1D63b42fb8c4887d6deB34c5fba81B18Bd2e3Ea<br>
@@ -57,7 +57,7 @@ Direccion del Contracto: 0x2f302e1604e3657035c1eada450582fa4417f598<br>
 Trasaccion Hash: 0xfb654fe6d12a87bd31bf50cb6a34e1664e762b8a217be884b690a1d86216709f
 
 
-## ENSSubdomainManager.sol
+## [ENSSubdomainManager.sol](https://github.com/margajm/FoodieChain/blob/f92c3b12041496f9bc7bd4672bc67a3821ff4104/scaffold-eth-2/packages/hardhat/contracts/ENSSubdomainManager.sol#L16)
 
 ### Polygom Amoy:
 Direccion del Contracto: 0xB2d8a2ce4A3a5B63CE60b0AE7593dD9A30eeFe77<br>
