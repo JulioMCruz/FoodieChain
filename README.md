@@ -35,7 +35,7 @@ El compromiso de amanecerse para el Jueves y Viernes.
 
 ## ¿Qué aprendimos?
 Aprendimos a enamorarnos del problema y no de la solución para aceptar las nuevas ideas y cambios que surgían cada vez, esta frase la aprendimos de un excelente compañero de equipo, nuestro amigo Julio.
-Aprendimos a ver nuevas perspectivas, a trabajar en equipo, adaptarnos al cambio rápidamente.
+Aprendimos a ver nuevas perspectivas, a trabajar en equipo, a adaptarnos al cambio rápidamente.
 Aprendimos a entender más las funcionalidades y utilidades de los NFT's en que casos si van o no, acerca del Zero Knowledge, el uso de ENS, como reducir costos en la Blockchain, etc.
 
 ## Siguientes pasos para BlockBocado
