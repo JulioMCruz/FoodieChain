@@ -48,13 +48,13 @@ Se adicionará la funcionalidad de compartir en redes sociales como Farcaster, X
 
 ##  [BlockBocado.sol](https://github.com/margajm/FoodieChain/blob/f92c3b12041496f9bc7bd4672bc67a3821ff4104/scaffold-eth-2/packages/hardhat/contracts/BlockBocado.sol#L6-L7)
 
-### Polygom Amoy:
-Direccion del Contracto: 0xf1D63b42fb8c4887d6deB34c5fba81B18Bd2e3Ea<br>
-Trasaccion Hash: 0x7066d2735c8b874790408df494dccb8d76edc85369165e3ede74cb83c7e3874d
+### Polygom Amoy: [Contract](https://amoy.polygonscan.com/address/0x270B8770F59c767ff55595e893c7E16A88347FE9#code)
+Direccion del Contracto: 0x270B8770F59c767ff55595e893c7E16A88347FE9<br>
+Trasaccion Hash: 0xf2fa25c7d65ba38721a3f07b41f2e54d2522fdb6dfa4437e7c7c832f22eabdb9
 
-### Scroll Sepolia:
-Direccion del Contracto: 0x2f302e1604e3657035c1eada450582fa4417f598<br>
-Trasaccion Hash: 0xfb654fe6d12a87bd31bf50cb6a34e1664e762b8a217be884b690a1d86216709f
+### Scroll Sepolia: [Contract](https://sepolia.scrollscan.com/address/0x270B8770F59c767ff55595e893c7E16A88347FE9)
+Direccion del Contracto: 0x270B8770F59c767ff55595e893c7E16A88347FE9<br>
+Trasaccion Hash: 0xa2df7272dcd93041a3322e1c9b3bf157fe2a23bb341fb3a1637127550f10e5e6
 
 
 ## [ENSSubdomainManager.sol](https://github.com/margajm/FoodieChain/blob/f92c3b12041496f9bc7bd4672bc67a3821ff4104/scaffold-eth-2/packages/hardhat/contracts/ENSSubdomainManager.sol#L16)
