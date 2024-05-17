@@ -17,7 +17,7 @@ export default function HeaderComponent() {
           <span className="sr-only">Toggle navigation menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent className="w-64" side="left">
+      <SheetContent className="w-64 bg-gradient-to-b from-[#55ffac] via-[#9eff7c] to-[#d9ff56]" side="left">
         <nav className="grid gap-2 py-4">
           <Link
             className="flex w-full items-center gap-2 px-4 py-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700"
