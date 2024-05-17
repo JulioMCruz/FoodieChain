@@ -31,8 +31,8 @@ export default function MarketPlaceSection() {
 <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-6">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8">
             
-            <div className="border shadow-sm rounded-lg overflow-hidden">
-              <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 px-4 py-3">
+            <div className="border shadow-sm rounded-xl overflow-hidden">
+              <div className="flex items-center justify-between bg-gray-200 dark:bg-gray-800 px-4 py-3">
                 <h3 className="font-semibold text-base">Glimmer Lamps</h3>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
@@ -47,7 +47,7 @@ export default function MarketPlaceSection() {
                   </DropdownMenuContent>
                 </DropdownMenu>
               </div>
-              <div className="p-4">
+              <div className="p-4 bg-gray-50">
                 <div className="flex items-center gap-4">
                   <img
                     alt="Product image"
@@ -62,15 +62,15 @@ export default function MarketPlaceSection() {
                     <p className="text-sm text-gray-500 dark:text-gray-400">Luminance Creations</p>
                   </div>
                 </div>
-                <div className="mt-4 mb-2">
+                <div className="mt-8 mb-2">
                   <Link href="/product-detail" className={buttonVariants({ variant: "outline" })}>Ver Detalle</Link>
                   <Button className="mx-4">Comprar</Button>
                 </div>
               </div>
             </div>
 
-            <div className="border shadow-sm rounded-lg overflow-hidden">
-              <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 px-4 py-3">
+            <div className="border shadow-sm rounded-xl overflow-hidden">
+              <div className="flex items-center justify-between bg-gray-200 dark:bg-gray-800 px-4 py-3">
                 <h3 className="font-semibold text-base">Aqua Filters</h3>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
@@ -85,7 +85,7 @@ export default function MarketPlaceSection() {
                   </DropdownMenuContent>
                 </DropdownMenu>
               </div>
-              <div className="p-4">
+              <div className="p-4 bg-gray-50">
                 <div className="flex items-center gap-4">
                   <img
                     alt="Product image"
@@ -100,15 +100,15 @@ export default function MarketPlaceSection() {
                     <p className="text-sm text-gray-500 dark:text-gray-400">HydraClean Solutions</p>
                   </div>
                 </div>
-                <div className="mt-4 mb-2">
+                <div className="mt-8 mb-2">
                   <Link href="/product-detail" className={buttonVariants({ variant: "outline" })}>Ver Detalle</Link>
                   <Button className="mx-4">Comprar</Button>
                 </div>
               </div>
             </div>
 
-            <div className="border shadow-sm rounded-lg overflow-hidden">
-              <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 px-4 py-3">
+            <div className="border shadow-sm rounded-xl overflow-hidden">
+              <div className="flex items-center justify-between bg-gray-200 dark:bg-gray-800 px-4 py-3">
                 <h3 className="font-semibold text-base">Eco Planters</h3>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
@@ -123,7 +123,7 @@ export default function MarketPlaceSection() {
                   </DropdownMenuContent>
                 </DropdownMenu>
               </div>
-              <div className="p-4">
+              <div className="p-4 bg-gray-50">
                 <div className="flex items-center gap-4">
                   <img
                     alt="Product image"
@@ -138,15 +138,15 @@ export default function MarketPlaceSection() {
                     <p className="text-sm text-gray-500 dark:text-gray-400">GreenGrowth Designers</p>
                   </div>
                 </div>
-                <div className="mt-4 mb-2">
+                <div className="mt-8 mb-2">
                   <Link href="/product-detail" className={buttonVariants({ variant: "outline" })}>Ver Detalle</Link>
                   <Button className="mx-4">Comprar</Button>
                 </div>
               </div>
             </div>
 
-            <div className="border shadow-sm rounded-lg overflow-hidden">
-              <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 px-4 py-3">
+            <div className="border shadow-sm rounded-xl overflow-hidden">
+              <div className="flex items-center justify-between bg-gray-200 dark:bg-gray-800 px-4 py-3">
                 <h3 className="font-semibold text-base">Zest Juicers</h3>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
@@ -161,7 +161,7 @@ export default function MarketPlaceSection() {
                   </DropdownMenuContent>
                 </DropdownMenu>
               </div>
-              <div className="p-4">
+              <div className="p-4 bg-gray-50">
                 <div className="flex items-center gap-4">
                   <img
                     alt="Product image"
@@ -176,7 +176,7 @@ export default function MarketPlaceSection() {
                     <p className="text-sm text-gray-500 dark:text-gray-400">FreshTech Appliances</p>
                   </div>
                 </div>
-                <div className="mt-4 mb-2">
+                <div className="mt-8 mb-2">
                   <Link href="/product-detail" className={buttonVariants({ variant: "outline" })}>Ver Detalle</Link>
                   <Button className="mx-4">Comprar</Button>
                 </div>
@@ -184,8 +184,8 @@ export default function MarketPlaceSection() {
               </div>
             </div>
 
-            <div className="border shadow-sm rounded-lg overflow-hidden">
-              <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 px-4 py-3">
+            <div className="border shadow-sm rounded-xl overflow-hidden">
+              <div className="flex items-center justify-between bg-gray-200 dark:bg-gray-800 px-4 py-3">
                 <h3 className="font-semibold text-base">Flexi Wearables</h3>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
@@ -201,7 +201,7 @@ export default function MarketPlaceSection() {
                 </DropdownMenu>
               </div>
 
-              <div className="p-4">
+              <div className="p-4 bg-gray-50">
                 <div className="flex items-center gap-4">
                   <img
                     alt="Product image"
@@ -216,7 +216,7 @@ export default function MarketPlaceSection() {
                     <p className="text-sm text-gray-500 dark:text-gray-400">Vitality Gear Co.</p>
                   </div>
                 </div>
-                <div className="mt-4 mb-2">
+                <div className="mt-8 mb-2">
                   <Link href="/product-detail" className={buttonVariants({ variant: "outline" })}>Ver Detalle</Link>
                   <Button className="mx-4">Comprar</Button>
                 </div>
