@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function HeaderComponent() {
   return (
-    <header className="sticky top-0 z-50 flex h-16 w-full items-center justify-between bg-white px-4 shadow-sm dark:bg-gray-800">
+    <header className="sticky top-0 z-50 flex items-center justify-between bg-[#fbff7f] dark:bg-gray-800 m-8 px-8 py-4 rounded-3xl shadow-xl border-2 border-black">
     <Sheet>
       <SheetTrigger asChild>
         <Button className="lg:hidden" size="icon" variant="outline">
