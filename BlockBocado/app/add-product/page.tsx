@@ -11,6 +11,7 @@ import TopSellersComponent from "@/components/top-vendedores";
 import TopBuyersComponent from "@/components/top-buyers";
 import AddProductComponent from "@/components/add-product";
 import HeaderComponent from "@/components/header";
+import { JSX, SVGProps } from "react";
 
 export default function Component() {
   return (
@@ -31,7 +32,7 @@ export default function Component() {
   )
 }
 
-function FolderIcon(props) {
+function FolderIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -51,7 +52,7 @@ function FolderIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -72,7 +73,7 @@ function HomeIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -93,7 +94,7 @@ function MenuIcon(props) {
   )
 }
 
-function SettingsIcon(props) {
+function SettingsIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -114,7 +115,7 @@ function SettingsIcon(props) {
 }
 
 
-function ShoppingCartIcon(props) {
+function ShoppingCartIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -136,7 +137,7 @@ function ShoppingCartIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
