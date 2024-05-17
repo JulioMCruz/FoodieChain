@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <PrivyProvider
-          appId="clt7ptmo500nd5or1tmhcdif8"
+          appId={process.env.NEXT_PUBLIC_PRIVY_APP_ID || ''}
           config={{
             // Customize Privy's appearance in your app
             appearance: {
